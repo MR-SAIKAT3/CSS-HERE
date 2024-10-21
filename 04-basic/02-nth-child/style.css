@@ -1,0 +1,77 @@
+.child{
+    background-color: blueviolet;
+    width: 50px;
+    padding-top: 12px;
+    height: 38px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.parent{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* nth child */
+
+/* .child:first-child{
+    background-color: aqua;
+}
+.child:last-child{
+    background-color: bisque;
+}
+.child:nth-last-child(2){
+    background-color: red;
+}
+.child:nth-child(1){
+    background-color: rgb(194, 123, 29);
+}
+.child:nth-child(even){
+    background-color: rgb(194, 123, 29);
+}
+.child:nth-child(odd){
+    background-color: black;
+} */
+
+.child:nth-child(5n + 2){
+    background-color: orange;
+}
+.child:nth-child(4n){
+    background-color: green;
+}
+
+form{
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+input[type='text']{
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+    float: left;
+}
+input[type='button']{
+    border: 1px solid aqua;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: aqua;
+    display: none;
+    transition: 3s;
+}
+input:not(:placeholder-shown) + input[type='button']{
+    display: block;
+}

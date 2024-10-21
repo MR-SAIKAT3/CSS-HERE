@@ -1,0 +1,44 @@
+:root{
+    --primary: #fdcb6e;
+    --sec:  #0097e6;
+    --cardColor: #00b894;
+    --whiteColor: #ddd;
+    --defaultWidth: 90%;
+}
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:var(--sec);
+}
+#main_area{
+    width: var(--defaultWidth);
+    margin: 0 auto;
+}
+#main_area h2{
+    text-align: center;
+    padding: 12px 15px;
+    width: 100%;
+    background-color: var(--primary);
+}
+.content_area{
+    color: var(--whiteColor);
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: var(--cardColor);
+}
+.content_area a{
+    padding: 10px 15px;
+    background-color: var(--primary);
+    text-decoration: none;
+    color: var(--cardColor);
+}
+.content_area a:hover{
+    background-color: var(--sec);
+    color: var(--primary);
+}

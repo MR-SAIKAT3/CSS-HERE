@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+h1{
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+
+    /* Serif Fonts */
+    font-family: 'Times New Roman'; /*default*/
+    font-family: Georgia;
+
+    /* Sans-Serif Fonts */
+    font-family: 'Arial'; /*default*/
+    font-family: Verdana;
+
+    /* monospace Fonts */
+    font-family: 'Courier New'; 
+
+    /* cursive Fonts */
+    font-family: 'Brush Script MT';
+
+     /* fantasy Fonts */
+    font-family: papyrus; 
+
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 700;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+h4{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+}

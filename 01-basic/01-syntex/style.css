@@ -1,0 +1,15 @@
+/* 
+h1 => Selector
+color => Property
+red => value
+*/
+h1{
+    color: red;  /* => Declaration* */
+    text-align: center;
+}
+
+p{
+    color: gray;
+    text-align: center;
+    font-size: large;
+}

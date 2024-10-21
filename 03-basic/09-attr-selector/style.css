@@ -1,0 +1,30 @@
+a[target] {
+    color: red;
+}
+a[target="_self"]{
+    color: green;
+}
+a[title~="code"]{
+    font-size: 35px;
+}
+a[title~='BD']{
+    font-family: 'Courier New', Courier, monospace;
+}
+div[class|='child']{
+    width: 250px;
+    height: 250px;
+    background: rgb(210, 231, 25);
+}
+div[class^='child']{
+    width: 250px;
+    margin-bottom: 10px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgb(1, 118, 122);
+}
+div[class$='eng']{
+    background-color: blue;
+}
+div[class*='not']{
+    background-color:black;
+}

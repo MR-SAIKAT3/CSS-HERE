@@ -1,0 +1,51 @@
+:root{
+    --primary:#ffb142;
+    --textColor:#fff;
+    --cardColor:#33d9b2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 90%;
+    margin: 10px auto;
+    background: var(--primary);
+    padding: 5px;
+}
+.child{
+    background: var(--cardColor);
+    /* margin: 1%; */
+    padding: 10px;
+    color: var(--textColor);
+}
+.child a{
+    display: inline-block;
+    background: var(--primary);
+    padding: 12px 15px;
+    margin-top: 5px;
+    color: var(--textColorl);
+    text-decoration: none;
+}
+
+/* print, screen, all */
+
+@media all and (min-width: 300px) and (max-width: 500px){
+    body .child{
+        color: red;
+        background: black;
+    }
+}
+@media all and (orientation: landscape) and (max-width: 500px){
+    body .child{
+        color: red;
+        background: blue;
+    }
+}
+@media all and (orientation: portrait) and (max-width: 400px){
+    body .child{
+        color: red;
+        background: green;
+    }
+}

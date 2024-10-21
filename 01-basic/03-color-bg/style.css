@@ -1,0 +1,44 @@
+/* 
+NameColor
+HexColor => #ffffff
+RGB => Red,Green,Blue
+RGBA => Red,Green,Blue,Alpha(0-1)
+*/
+body{
+    background: url("bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* color */
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: center;
+    color: #81ff81;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 24, 200);
+}
+h3{
+    text-align: center;
+    color: rgba(150, 50, 60, .5);
+}
+
+/* bgc */
+.bg{
+    width: 100vw;
+    height: 200px;
+    background-color:#71809385;
+    background-image: url("bg.jpg");
+    background-size: 100px 100px;
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-position: center, top;
+
+    /* background:; */
+
+}

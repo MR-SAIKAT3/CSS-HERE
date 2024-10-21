@@ -1,0 +1,113 @@
+.parent{
+    width: 200px ;
+    height: 200px;
+    /* border: 5px solid black;
+    border-top: 5px solid red; */
+    animation: lodings 10s ease-in  infinite;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.child{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ddd;
+}
+@keyframes lodings{
+    0%{
+        transform:rotate(0deg) ;
+    }
+    100%{
+        transform:rotate(360deg) ;
+    }
+}
+.one {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 5px solid darkred;
+    margin-top: 25px;
+    margin-left: 15px;
+    transition: 3s;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: learning;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes learning{
+    /* from{
+        background-color: aqua;
+        width: 100px;
+        width: 100px;
+    }
+    to{
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    } */
+    
+    0%{
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+    }
+    50%{
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        transform: rotate(360deg);
+    }
+    100%{
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        transform: skew(-20deg);
+    }
+}
+
+#parent{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    position: relative;
+}
+#child{
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    animation-name: rounds;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rounds{
+    0%{
+        left: 3px;
+        top: 3px;
+    }
+    25%{
+        left: 350px;
+        right: 0;
+        top: 0;
+    }
+    50%{
+        left: 350px;
+        right: 0;
+        top: 350px;
+        bottom: 0;
+    }
+    75%{
+        left: 0;
+        right: 350px;
+        top: 350px;
+        bottom: 0;
+    }
+    100%{
+        left: 3px;
+        top: 3px;
+    }
+}

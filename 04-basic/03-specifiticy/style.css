@@ -1,0 +1,23 @@
+#test p.para{
+    color: blueviolet;  /* specificity => 111 */
+}
+
+#test  p{
+    color: aqua;  /* specificity => 101 */
+}
+
+.child p.para{
+    color: yellow;  /* specificity => 21 */
+}
+
+p.para{
+    color: brown;  /* specificity => 11 */
+}
+
+.para{
+    color: green; /* specificity => 10 */
+}
+
+p{
+    color: red; /*specificity => 1*/
+}

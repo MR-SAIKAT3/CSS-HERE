@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.contact{
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 15px auto;
+    padding: 5%;
+    text-align: center;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.contact p{
+    color: #796d6d;
+    margin: 10px;
+}
+.contact p a{
+    text-decoration: none;
+}
+.child_form{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.child_form label{
+    display: block;
+}
+.child_form input,
+.child_form select,
+.child_form textarea{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px 3%; 
+    width: 94%;
+}
+.child_form select{
+    width: 100%;
+}
+.child_form textarea{
+    font-family: "Poppins", sans-serif;
+}
+.service{
+    text-align: left;
+}
+.child_form input[type='button']{
+    margin-top: 15px;
+    width: 100%;
+    background: blueviolet;
+    border: 1px solid blueviolet;
+    color: #ddd;
+    cursor: pointer;
+}
+.child_form input[type='button']:hover{
+    margin-top: 15px;
+    width: 100%;
+    background: black;
+    border: 1px solid black;
+    color: #ddd;
+}

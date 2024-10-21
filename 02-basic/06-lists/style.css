@@ -1,0 +1,15 @@
+/* ul{
+    list-style-type: circle;
+    list-style-position: inside;
+} */
+ul{
+    background-color: tomato;
+    padding: 25px;
+    list-style-position: inside;
+}
+
+li{
+    background-color: violet;
+    padding: 5px;
+    border-bottom: 2px solid tomato;
+}

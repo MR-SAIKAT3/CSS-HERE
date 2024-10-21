@@ -1,0 +1,44 @@
+/* We can divide CSS selectors into five categories:
+
+    Simple selectors (select elements based on name, id, class)
+            . => class_selector
+            # => id_selector
+            * => universal
+    Combinator selectors (select elements based on a specific relationship between them)
+            div p => descendant selector (space)
+            div > p => child selector (>)
+            div + p => adjacent sibling selector (+)
+            div ~ p => general sibling selector (~)
+    Pseudo-class selectors (select elements based on a certain state)
+    Pseudo-elements selectors (select and style a part of an element)
+    Attribute selectors (select elements based on an attribute or attribute value)
+
+    Grouping
+            #id_selector,
+            .class_selector
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.class_selector{
+    color: red;
+}
+#id_selector{
+    color: green;
+}
+
+div p{
+    margin: 10px;
+}
+
+div > p{
+    color: lightseagreen;
+}
+div + p{
+    color: red;
+}
+div~p{
+    margin: 15px;
+}

@@ -1,0 +1,55 @@
+h1{
+    color: orange;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+}
+.one{
+    text-align: center;
+}
+.two{
+    text-align-last: center;
+}
+.three{
+    text-align: right;
+}
+.direction{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+img{
+    width: 8px;
+    height: 8px;
+}
+.baseline{
+    vertical-align: baseline;
+}
+.text_top{
+    vertical-align: top;
+}
+.text_bottom{
+    vertical-align: bottom;
+}
+.sub{
+    vertical-align: sub;
+}
+.super{
+    vertical-align: super;
+}
+/* text-Decoration */
+a{
+    text-decoration: overline underline line-through;
+}
+.transform{
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 5px black;
+}
+.indent{
+    text-indent: 40px;
+    line-height: 25px;
+}
+p{
+    white-space: break-spaces;
+}

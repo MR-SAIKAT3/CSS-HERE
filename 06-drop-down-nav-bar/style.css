@@ -1,0 +1,197 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+#main{
+    background:#2c2c54 ;
+}
+#main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+#main li{
+    display: inline-block;
+    position: relative;
+}
+#main a{
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+#main a:hover{
+    background-color: #575fcf;
+}
+
+/* dropdown style for home */
+#home{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#home li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #home{
+    display: block;
+}
+#main ul li:hover #home li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #home li a:hover{
+    background-color: #2c2c54;
+}
+
+/* dropdown style for aboutme */
+#aboutme{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#aboutme li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #aboutme{
+    display: block;
+}
+#main ul li:hover #aboutme li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #aboutme li a:hover{
+    background-color: #2c2c54;
+}
+/* dropdown style for protfolio */
+#protfolio{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#protfolio li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #protfolio{
+    display: block;
+}
+#main ul li:hover #protfolio li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #protfolio li a:hover{
+    background-color: #2c2c54;
+}
+/* dropdown style for service */
+#service{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#service li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #service{
+    display: block;
+}
+#main ul li:hover #service li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #service li a:hover{
+    background-color: #2c2c54;
+}
+/* dropdown style for testimonial */
+#testimonial{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#testimonial li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #testimonial{
+    display: block;
+}
+#main ul li:hover #testimonial li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #testimonial li a:hover{
+    background-color: #2c2c54;
+}
+/*dropdown style for contactus  */
+#contactus{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#contactus li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #contactus{
+    display: block;
+}
+#main ul li:hover #contactus li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #contactus li a:hover{
+    background-color: #2c2c54;
+}
+/* dropdown style for blog */
+#blog{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color:#0fbcf9 ;
+    width: 180px;
+    display: none;
+}
+#blog li{
+    display: block;
+}
+#main ul li:hover a{
+    background-color: #575fcf;
+}
+#main ul li:hover #blog{
+    display: block;
+}
+#main ul li:hover #blog li a{
+    background-color:#0fbcf9 ;
+}
+#main ul li #blog li a:hover{
+    background-color: #2c2c54;
+}

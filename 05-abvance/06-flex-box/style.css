@@ -1,0 +1,49 @@
+:root{
+    --primary: #fdcb6e;
+    --textcolor: #00b894;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#container{
+    width: 90%;
+    margin: 10px auto;
+    background-color: var(--primary);
+    padding: 10px;
+}
+#container h2{
+    background: var(--textcolor);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.cards{
+    background-color: var(--textcolor);
+    margin: 1%;
+    padding: 30px;
+    border-radius: 5px;
+    flex-basis: 30%;
+}
+.cards a{
+    background-color: var(--primary);
+    padding: 12px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.extra{
+    height: 300px;
+    background: white;
+    align-items: center;
+}

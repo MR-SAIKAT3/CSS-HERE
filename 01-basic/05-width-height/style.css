@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html,body{
+    height: 100%;
+} */
+
+html{
+    /* height: 100%; */
+    height: 50%;
+}
+body{
+    /* height: inherit; */
+    height: initial;
+}
+div{
+    background: #574b90;
+    /* color: white; */
+    margin: 10px auto;
+    padding: 2%;
+    width: 90%;
+    max-width: 1140px;
+    min-width: 600px;
+
+    /* height: 100%; */
+    /* height: 50%; */
+    /* height: inherit; */
+    height: initial;
+    max-height: 300px;
+}

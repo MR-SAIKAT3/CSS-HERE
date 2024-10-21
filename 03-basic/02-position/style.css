@@ -1,0 +1,46 @@
+#box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block  ;
+}
+.box-1{
+    background-color: aqua;
+    position: static; /*This is difault. On here top-bottom-left-right and z-index value are not work*/
+}
+.box-2{
+    background-color: green;
+    position: relative; /*Element is relative to itself.*/
+    top: 10px;
+    left: 50px;
+}
+.box-3{
+    background-color: grey;
+    position: absolute;/*Positioned relative to its closest positioned ancestor(parent).*/
+    top: 25px ;
+    right: 10px;
+}
+.box-4{
+    background-color: tomato;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+}
+.box-5{
+    background-color: darkcyan;
+    position: sticky;/*Positioned based on user's scroll position*/
+    top: 60vh; /*interesting*/
+    left: 60%;
+}
+.box-6{
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 25%;
+    z-index: -1;
+}
+.box-7{
+    background-color: aquamarine;
+    position: relative;
+    top: 25px;
+
+}

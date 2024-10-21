@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            margin: 20px;
+        }
+        .container{
+            width: 800px;
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row; /* default horizontally align */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; verticaly align */
+            /* flex-direction: column-reverse; */
+            /* align-items:center; */
+            justify-content: center;
+            /* align-items: flex-end;   */
+            /* align-content: center; */
+        }
+    </style>
+</head>
+<body>
+    <h3>flex-box</h3>
+    <div class="container">
+        <div class="item">One</div>
+        <div class="item">Two</div>
+    </div>
+</body>
+</html>

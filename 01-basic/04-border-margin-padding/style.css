@@ -1,0 +1,26 @@
+/* border */
+p{
+    display: inline-block;
+    border-style: groove;
+    border-width: 10px;
+    border-color: aqua;
+    border-radius: 10px;
+    border-top: 5px solid black;
+
+    border: 5px groove gray;
+}
+/* margin */
+.parent{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+/* padding */
+.child{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 80px;
+    padding: 50px;
+}
